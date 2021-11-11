@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+
+   body{
+      width: auto;
+      height:max-content ;
+     padding: 2%;
+      background-image: url(../imagens/background.jpg);
+      background-size: auto auto;
+      
+      
+  }  
+.cabecalho{
+   /*   background-image: linear-gradient(#777677, #dfdde0);*/
+      height: 100px;
+      width: 100%;
+      color: white;
+      display: flex;
+      border-radius: 50px;
+      border: 2px #820AD1 dotted;
+       
+           
+  }
+  
+
+  .logo{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      transition: 2s;
+      
+        
+      
+       }
+     
+   nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 70%;
+      
+
+  }
+  
+a{
+    text-decoration: none;
+    color: #820AD1;
+    
+}
+a :hover{
+    color: #b50acc;
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+}
+  .logo :hover{
+    width: auto;
+    height: 100px;
+  }
+
+h2{
+    font-size: 3rem;
+}
+
+.quadro_1{
+padding: 100px;
+width: 100%;
+height: 400px;
+margin-top: 30px;
+
+display: flex;
+align-items: center;
+padding: 0%;
+}
+
+
+.q1_esquerda{
+width: 50%;
+height: 400px;
+padding: 10px;
+
+
+}
+.q1_direita{
+width: 50%;
+height: 400px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 2rem;
+text-align: center;
+
+}
+
+.imagem_q1{
+  width: 500px;
+  height: auto;
+}
+
+.galeria{
+    margin-top: 20px;
+    width: 100%;
+    
+   
+    display: flexbox;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+.doacao{
+    width: auto;
+    height: 200px;
+    margin: 3px;
+}
+
+footer{
+    height: 100px;
+    background-color: #820AD1;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.f_esquerda{
+    width: 300px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+  
+}
+.f_centro{
+    width: 300px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.f_direita{
+    width: 300px;
+    height: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    font-size: 40px;
+      
+}
+
+.f_direita a{
+    color: bisque;
+}
+.f_direita a i:hover{
+    color: rgb(87, 2, 87);
+}
+
+.html_css{
+    width: 80px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
